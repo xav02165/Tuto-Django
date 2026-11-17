@@ -1,0 +1,36 @@
+# Environnement virtuel
+.venv/
+venv/
+env/
+
+# Fichiers compilés Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Base de données locale SQLite
+*.sqlite3
+db.sqlite3
+
+# Fichiers statiques collectés et médias uploadés
+/staticfiles/
+/media/
+
+# Variables d'environnement et secrets
+.env
+.env.local
+
+# Dossiers des éditeurs de code (VS Code, Sublime Text, PyCharm)
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Fichiers système (Windows / Linux / macOS)
+Thumbs.db
+Desktop.ini
+.DS_Store
+*~
+
+# Logs
+*.log
